@@ -1,0 +1,117 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.draggableWordBox {
+  // background-image: url('../assets/img/backgrounds/bg-mapaConceptual.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 850px;
+  height: 630px;
+  .contentSlide {
+    .slideBox {
+      padding: 1.5rem;
+      width: 85%;
+      height: 195px;
+      .line-drop {
+        position: absolute;
+        width: 190px;
+        height: 40px;
+      }
+      .boxDrop {
+        position: absolute;
+        height: 69px;
+        background: #fff;
+        border-width: 1px;
+        border-style: dotted;
+        border-color: rgb(255, 157, 42);
+        width: 70px;
+        padding: .4em;
+        .texBox {
+          color: #E8E8E8;
+          font-size: .8em;
+          text-align: center;
+        }
+        p {
+          font-size: .7em;
+        }
+      }
+      .WordDropped {
+        border: none;
+        p {
+        }
+      }
+    }
+
+    .buttonSlide {
+      background-color: rgba(0, 0, 0, 0);
+
+      .iconButton {
+        font-size: 2em;
+        color: $color1;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: $color2;
+        }
+      }
+    }
+  }
+
+  .infoGloble {
+    position: absolute;
+    background-color: #618DF8;
+    padding: 4em;
+    z-index: 5;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+    top: 205px;
+    left: 265px;
+
+    .titleCircle {
+      background-color: $color2;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+    }
+
+    .buttonClose {
+      position: absolute;
+      top: 3px!important;
+      right: 0px!important;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0);
+      .iconButton {
+        color: red;
+        font-size: 2.3em;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: #cf0000;
+        }
+      }
+    }
+  }
+
+  .contentWords {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    top: 525px;
+    // left: 142px;
+    .dragWord {
+      background: #fff;
+      width: 190px;
+      // height: 23px;
+      padding: .4em;
+      margin: 3px;
+      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+    }
+  }
+}

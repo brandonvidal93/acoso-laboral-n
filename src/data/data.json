@@ -1,0 +1,1348 @@
+{
+  "coverPage": {
+    "type": "startPage",
+    "units": 7,
+    "title": "Acoso Laboral",
+    "subTitle": "¡Te damos la bienvenida a este espacio de formación!",
+    "module": "",
+    "courseName": "Acompáñanos en este recorrido",
+    "logoCourse": "img/logo-2.png",
+    "buttonStart": "Iniciar",
+    "modal": {
+      "type": "videoModal",
+      "title": "Recomendaciçon Título",
+      "text": "Texto de recomendación.",
+      "buttonModal": "Guía de Navegación",
+      "closedModal": true,
+      "urlVideo": "video/guia-navegacion-impuestos.mp4"
+    },
+    "background": {
+      "bg": "img/cover/fondo-cover.jpg"
+    },
+    "footer": {
+      "label": "<b>Curso Acoso Laboral</b>",
+      "logoFooter": "img/logo-1.png"
+    }
+  },
+
+  "page1": {
+    "type": "page",
+    "jumboText1": "Bienvenidos",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "resources": {
+      "img1": ""
+    },
+    "background": {
+      "bg": "img/cover/fondo-pages-3.jpg"
+    },
+    "instruction": {
+      "type": "",
+      "text": "<b>Haz clic</b> en el siguiente video para conocer la información.",
+      "textLabel": "",
+      "posY": 220,
+      "posX": 0,
+      "size": 400
+    },
+    "boxInfo": {
+      "title": "Reproducir video",
+      "text": "",
+      "imgBg": "img/play-1.png"
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/intro-curso.mp4"
+    }
+  },
+
+  "page2": {
+    "type": "Página 2",
+    "jumboText1": "¿Qué es el acoso laboral?",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "background": {
+      "bg": "img/cover/fondo-pages-1.jpg"
+    },
+    "instruction": {
+      "type": "label2",
+      "text": "<b>Ubica</b> correctamente cada una de las piezas para conocer la información.",
+      "textLabel": "Arrastra las piezas",
+      "posY": 0,
+      "posX": 370,
+      "size": 530
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "id": 1,
+          "text": "pieza-1",
+          "img": "img/2/drag-1.png"
+        },
+        {
+          "id": 2,
+          "text": "pieza-2",
+          "img": "img/2/drag-2.png"
+        },
+        {
+          "id": 3,
+          "text": "pieza-3",
+          "img": "img/2/drag-3.png"
+        },
+        {
+          "id": 4,
+          "text": "pieza-4",
+          "img": "img/2/drag-4.png",
+          "imgCheck": "img/check-1.png",
+          "checkPosY": 248,
+          "checkPosX": 250
+        },
+        {
+          "id": 5,
+          "text": "pieza-5",
+          "img": "img/2/drag-5.png",
+          "imgCheck": "img/check-1.png",
+          "checkPosY": 25,
+          "checkPosX": 30
+        },
+        {
+          "id": 6,
+          "text": "pieza-6",
+          "img": "img/2/drag-6.png",
+          "imgCheck": "img/check-1.png",
+          "checkPosY": 248,
+          "checkPosX": 30
+        },
+        {
+          "id": 7,
+          "text": "pieza-7",
+          "img": "img/2/drag-7.png"
+        },
+        {
+          "id": 8,
+          "text": "pieza-8",
+          "img": "img/2/drag-8.png",
+          "imgCheck": "img/check-1.png",
+          "checkPosY": 25,
+          "checkPosX": 255
+        }
+      ],
+      "dropZone": {
+        "paragraph": [
+          {
+            "key": 1,
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "img": "img/2/drop-1.png",
+                "posY": 16,
+                "posX": 20,
+                "type": "pieza-5"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "img": "img/2/drop-2.png",
+                "posY": 47,
+                "posX": 126,
+                "type": "pieza-8"
+              },
+              {
+                "key": 3,
+                "box": "<div class = 'boxDrop'></div>",
+                "img": "img/2/drop-3.png",
+                "posY": 122,
+                "posX": 51,
+                "type": "pieza-6"
+              },
+              {
+                "key": 4,
+                "box": "<div class = 'boxDrop'></div>",
+                "img": "img/2/drop-4.png",
+                "posY": 152,
+                "posX": 156,
+                "type": "pieza-4"
+              }
+            ]
+          }
+        ]
+      },
+      "content": [
+        {
+          "info": 1,
+          "img": "img/check.png",
+          "imgSize": 150,
+          "title": "¡Muy bien!",
+          "text": "<p></p>"
+        }
+      ]
+    }
+  },
+
+  "page3": {
+    "type": "Página 3",
+    "jumboText1": "¿Qué NO es acoso laboral?",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "background": {
+      "bg": "img/cover/fondo-pages-1.jpg"
+    },
+    "instruction": {
+      "type": "label",
+      "text": "<b>Haz clic</b> en cada número para aprender cuáles son los ítems en los que no hay acoso laboral.",
+      "textLabel": "Avanza con las flechas que hay al lado de los íconos.",
+      "posY": 0,
+      "posX": 500,
+      "size": 440
+    },
+    "multimedia": [
+      {
+        "id": 1,
+        "title": "",
+        "text": "",
+        "img": "",
+        "itemInfo": {
+          "title": "",
+          "text": "Los actos destinados a ejercer la potestad disciplinaria.",
+          "img": "",
+          "posGlobe": {
+            "posY": -65,
+            "posX": 415,
+            "size": 240
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          },
+          "posTriang": "triang-izq fadeInDown"
+        }
+      },
+      {
+        "id": 2,
+        "title": "",
+        "text": "",
+        "img": "",
+        "itemInfo": {
+          "title": "",
+          "text": "Las exigencias razonables de un actuar que respete la imagen y buen nombre de la Compañía.",
+          "img": "",
+          "posGlobe": {
+            "posY": -65,
+            "posX": 360,
+            "size": 360
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          },
+          "posTriang": "triang-izq fadeInDown"
+        }
+      },
+      {
+        "id": 3,
+        "title": "",
+        "text": "",
+        "img": "",
+        "itemInfo": {
+          "title": "",
+          "text": "La aplicación de herramientas de medición y gestión de desarrollo a fin de identificar el alcance de los objetivos individuales y de Compañía.",
+          "img": "",
+          "posGlobe": {
+            "posY": -83,
+            "posX": 345,
+            "size": 400
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          },
+          "posTriang": "triang-izq fadeInDown"
+        }
+      },
+      {
+        "id": 4,
+        "title": "",
+        "text": "",
+        "img": "",
+        "itemInfo": {
+          "title": "",
+          "text": "Las actuaciones administrativas para dar por terminado el contrato de trabajo con base en una justa causa.",
+          "img": "",
+          "posGlobe": {
+            "posY": -65,
+            "posX": 345,
+            "size": 400
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          },
+          "posTriang": "triang-izq fadeInDown"
+        }
+      },
+      {
+        "id": 5,
+        "title": "",
+        "text": "",
+        "img": "",
+        "itemInfo": {
+          "title": "",
+          "text": "La solicitud de cumplir deberes adicionales de colaboración con la empresa cuando sean necesarios para la continuidad del servicio o para solucionar situaciones difíciles en la operación de la empresa.",
+          "img": "",
+          "posGlobe": {
+            "posY": -83,
+            "posX": 285,
+            "size": 530
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          },
+          "posTriang": "triang-izq fadeInDown"
+        }
+      },
+      {
+        "id": 6,
+        "title": "",
+        "text": "",
+        "img": "",
+        "itemInfo": {
+          "title": "",
+          "text": "La exigencia de cumplir las obligaciones y prohibiciones contenidas en el Reglamento Interno de Trabajo; políticas: contrato y demás directrices de Compañía; así como la normatividad laboral.",
+          "img": "",
+          "posGlobe": {
+            "posY": -83,
+            "posX": 264,
+            "size": 580
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          },
+          "posTriang": "triang-izq fadeInDown"
+        }
+      }
+    ]
+  },
+
+  "page4": {
+    "type": "Página 4",
+    "jumboText1": "¿Cuáles son las conductas que constituyen acoso laboral?",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "background": {
+      "bg": "img/cover/fondo-pages-1.jpg"
+    },
+    "instruction": {
+      "type": "label",
+      "text": "<b>Haz clic</b> en cada número en orden consecutivo para conocer la información.",
+      "textLabel": "Clic en orden consecutivo.",
+      "posY": 0,
+      "posX": 700,
+      "size": 320
+    },
+    "multimediaCircular": [
+      {
+        "urlImgBtn": "img/4/n-1.png",
+        "pos": {
+          "top": 265,
+          "left": 240
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "Los actos de agresión física.",
+          "posGlobe": {
+            "posY": 281,
+            "posX": 317,
+            "size": 240
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": 210
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-2.png",
+        "pos": {
+          "top": 179,
+          "left": 290
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "Las expresiones de burla o descalificadoras con alusión a la raza, el género, el origen familiar o nacional, la preferencia política, el estatus social o características personales. ",
+          "posGlobe": {
+            "posY": 180,
+            "posX": 375,
+            "size": 370
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": 345
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-3.png",
+        "pos": {
+          "top": 92,
+          "left": 340
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "Los comentarios hostiles y humillantes de descalificación profesional.",
+          "posGlobe": {
+            "posY": 100,
+            "posX": 420,
+            "size": 290
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": 260
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-4.png",
+        "pos": {
+          "top": 181,
+          "left": 390
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "Las injustificadas amenazas de despido.",
+          "posGlobe": {
+            "posY": 195,
+            "posX": 475,
+            "size": 300
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": 270
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-5.png",
+        "pos": {
+          "top": 266,
+          "left": 440
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "Las múltiples sanciones disciplinarias sin una justificación válida.",
+          "posGlobe": {
+            "posY": 275,
+            "posX": 130,
+            "size": 320
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-6.png",
+        "pos": {
+          "top": 181,
+          "left": 490
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "La descalificación de las propuestas u opiniones de trabajo.",
+          "posGlobe": {
+            "posY": 195,
+            "posX": 210,
+            "size": 290
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-7.png",
+        "pos": {
+          "top": 93,
+          "left": 540
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "Las burlas sobre la apariencia física o la forma de vestir.",
+          "posGlobe": {
+            "posY": 94,
+            "posX": 140,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-8.png",
+        "pos": {
+          "top": 181,
+          "left": 590
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "La divulgación de hechos pertenecientes a la intimidad de la persona.",
+          "posGlobe": {
+            "posY": 190,
+            "posX": 275,
+            "size": 325
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-9.png",
+        "pos": {
+          "top": 93,
+          "left": 640
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "La imposición injustificada de deberes absolutamente extraños a las obligaciones laborales, las exigencias abiertamente desproporcionadas sobre el cumplimiento de la labor encomendada y el brusco cambio del lugar de trabajo o de la labor contratada sin fundamento objetivo.",
+          "posGlobe": {
+            "posY": 77,
+            "posX": 240,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-10.png",
+        "pos": {
+          "top": 4,
+          "left": 690
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "La exigencia de laborar en horarios excesivos respecto a la jornada laboral contratada o legalmente establecida, los cambios sorpresivos del turno laboral y la exigencia permanente de laborar en dominicales y días festivos sin ningún fundamento objetivo.",
+          "posGlobe": {
+            "posY": -5,
+            "posX": 285,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-11.png",
+        "pos": {
+          "top": 93,
+          "left": 740
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "El trato notoriamente discriminatorio.",
+          "posGlobe": {
+            "posY": 110,
+            "posX": 465,
+            "size": 280
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-12.png",
+        "pos": {
+          "top": 181,
+          "left": 690
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "La negativa a suministrar materiales e información absolutamente indispensables para el cumplimiento de la labor.",
+          "posGlobe": {
+            "posY": 195,
+            "posX": 250,
+            "size": 440
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-13.png",
+        "pos": {
+          "top": 268,
+          "left": 640
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "La negativa claramente injustificada a otorgar permisos, licencias de ley y vacaciones.",
+          "posGlobe": {
+            "posY": 275,
+            "posX": 235,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "urlImgBtn": "img/4/n-14.png",
+        "pos": {
+          "top": 268,
+          "left": 740
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "El envío de anónimos, llamadas telefónicas y mensajes virtuales con contenido injurioso, ofensivo, intimidatorio o el sometimiento a una situación de aislamiento social.",
+          "posGlobe": {
+            "posY": 275,
+            "posX": 330,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      }
+    ]
+  },
+
+  "page5": {
+    "type": "Página 5",
+    "jumboText1": "¿Cómo identificar un acoso sexual?",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "background": {
+      "bg": "img/cover/fondo-pages-1.jpg"
+    },
+    "instruction": {
+      "type": "",
+      "text": "<b>Desliza</b> hacia abajo dentro de la tablet para conocer toda la información del chat.",
+      "textLabel": "Haz scroll.",
+      "posY": 0,
+      "posX": 670,
+      "size": 320
+    },
+    "multimedia": {
+      "messages": [
+        {
+          "text": "<b>Ana:</b> Hola Carlos, ¿cómo te encuentras? Espero que muy bien. Como sé que haces parte del Comité de Conviviencia Laboral, te escribo porque tengo una inquietud en la que me puedes ayudar.",
+          "side": "mT-1 messageLeftIcon-1 separator"
+        },
+        {
+          "text": "<b>Carlos:</b> Hola Ana, me encuentro muy bien, gracias por preguntar, ¿en qué te puedo ayudar?",
+          "side": "messageRightIcon-1 separator"
+        },
+        {
+          "text": "<b>Ana:</b> Resulta que hace poco leí sobre el acoso laboral y me di cuenta que es una conducta persistente y demostrable ejercida por un trabajador frente a un compañero para infundir miedo, intimidación, angustia, entre otros. Pero quedé con una duda: ¿este tipo de acoso también puede ser sexual?",
+          "side": "messageLeftIcon-1 separator"
+        },
+        {
+          "text": "<b>Carlos:</b> ¡¡¡Claro!!! Y se manifiesta a través de un comportamiento verbal, gestual, de contacto físico y con insinuaciones.",
+          "side": "messageRightIcon-1 separator"
+        },
+        {
+          "text": "<b>Ana:</b> ¡¡Según esto que me cuentas es un tema muy delicado!!",
+          "side": "messageLeftIcon-1 separator"
+        },
+        {
+          "text": "<b>Carlos:</b> Sí, y eso no es todo, este tipo de acoso también se manifiesta a través de observaciones sexuales, sean éstas verbales o de hecho, puede darse también con exhibiciones de pornografía y exigencias sexuales que afectan la dignidad de las personas. ",
+          "side": "messageRightIcon-1 separator"
+        },
+        {
+          "text": "<b>Ana:</b> Y, ¿cómo me doy cuenta si alguien en la empresa está siendo víctima de acoso sexual?",
+          "side": "messageLeftIcon-1 separator"
+        },
+        {
+          "text": "<b>Carlos:</b> Si esas acciones, gestos o palabras le resultan ofensivas para la persona y nunca ha dado consentimiento para que ocurra, muy posiblemente está siendo víctima de acoso sexual.",
+          "side": "messageRightIcon-1 separator"
+        },
+        {
+          "text": "<b>Ana:</b> ¡Excelente Carlos! Me queda muy clara la información y estaré muy atenta a identificar en mis labores cotidianas posibles casos de acoso sexual. Muchas gracias, que tengas un buen día.",
+          "side": "messageLeftIcon-1 separator"
+        },
+        {
+          "text": "<b>Carlos:</b> Igual para ti, hazme un favor: comparte con tu equipo este contenido para que estemos todos informados. Mil gracias.",
+          "side": "messageRightIcon-1 separator"
+        }
+      ]
+    }
+  },
+
+  "page6": {
+    "type": "Página 6",
+    "jumboText1": "Modalidades de acoso laboral",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "background": {
+      "bg": "img/cover/fondo-pages-1.jpg"
+    },
+    "instruction": {
+      "type": "label",
+      "text": "<b>Arrastra</b> el título que corresponde a cada definición.",
+      "textLabel": "Arrastra con clic sostenido",
+      "posY": 0,
+      "posX": 600,
+      "size": 360
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "id": 1,
+          "text": "Desprotección laboral",
+          "color": "#D0D62D"
+        },
+        {
+          "id": 2,
+          "text": "Discriminación laboral",
+          "color": "#7BAF2D"
+        },
+        {
+          "id": 3,
+          "text": "Inequidad laboral",
+          "color": "#46791D"
+        },
+        {
+          "id": 4,
+          "text": "Persecución laboral",
+          "color": "#0F511A"
+        },
+        {
+          "id": 5,
+          "text": "Entorpecimiento laboral",
+          "color": "#14604F"
+        },
+        {
+          "id": 6,
+          "text": "Maltrato laboral",
+          "color": "#1B927C"
+        }
+      ],
+      "dropZone": {
+        "imgCheck": "img/6/check-1.png",
+        "paragraph": [
+          {
+            "key": 1,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Acto de violencia contra la integridad física o moral, la libertad física o sexual y los bienes del trabajador. Así como el uso de expresiones verbales injuriosas o ultrajantes que lesionen la integridad, o comportamientos tendientes a menoscabar la autoestima.",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 145,
+                "size": 85,
+                "type": "Maltrato laboral",
+                "color": "#1B927C"
+              }
+            ]
+          },
+          {
+            "key": 2,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Toda conducta cuyas características de reiteración o evidente arbitrariedad permitan inferir en el propósito de inducir la renuncia del empleado o trabajador, mediante la descalificación, la carga excesiva de trabajo y cambios permanentes de horario que pueden producir desmotivación laboral.",
+                "posY": 30,
+                "posX": 30
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 139,
+                "size": 85,
+                "type": "Persecución laboral",
+                "color": "#0F511A"
+              }
+            ]
+          },
+          {
+            "key": 3,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Todo trato diferenciado por razones de raza, género, origen familiar, nacional, credo religioso, preferencia política o situación social o que carezca de toda razonabilidad desde el punto de vista laboral.",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 53,
+                "size": 64,
+                "type": "Discriminación laboral",
+                "color": "#7BAF2D"
+              }
+            ]
+          },
+          {
+            "key": 4,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Toda acción tendiente a obstaculizar el cumplimiento de la labor o hacerla más gravosa o retardada con perjuicio para el trabajador.",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 182,
+                "size": 100,
+                "type": "Entorpecimiento laboral",
+                "color": "#14604F"
+              }
+            ]
+          },
+          {
+            "key": 5,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Toda conducta tendiente a poner en riesgo la integridad y la seguridad del trabajador mediante órdenes o asignación de funciones sin el cumplimiento de lo requisitos mínimos de protección y seguridad para el trabajador.",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 59,
+                "size": 100,
+                "type": "Desprotección laboral",
+                "color": "#D0D62D"
+              }
+            ]
+          },
+          {
+            "key": 6,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Asignación de funciones en perjuicio de la dignidad del trabajador.",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 212,
+                "size": 110,
+                "type": "Inequidad laboral",
+                "color": "#46791D"
+              }
+            ]
+          }
+        ]
+      },
+      "content": [
+        {
+          "info": 1,
+          "img": "img/check.png",
+          "imgSize": 150,
+          "title": "¡Muy bien!",
+          "text": ""
+        }
+      ]
+    }
+  },
+
+  "page7": {
+    "type": "page",
+    "jumboText1": "¿Cómo detectar el acoso laboral?",
+    "titleText1": "",
+    "text1": "Si en el ejercicio anterior tuviste dificultades para identificar las modalidades de acoso laboral, te daremos algunas pistas para detectarlo fácilmente, presta atención.",
+    "text2": "",
+    "resources": {
+      "img1": ""
+    },
+    "background": {
+      "bg": "img/cover/fondo-pages-2.jpg"
+    },
+    "instruction": {
+      "type": "",
+      "text": "<b>Haz clic</b> en el siguiente video para conocer la información.",
+      "textLabel": "",
+      "posY": 135,
+      "posX": 0,
+      "size": 400
+    },
+    "boxInfo": {
+      "title": "Reproducir video",
+      "text": "",
+      "imgBg": "img/play-1.png"
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/1-Como-detectar-acoso-laboral.mp4"
+    }
+  },
+
+  "page8": {
+    "type": "Página 8",
+    "jumboText1": "¿Qué puedes hacer para prevenir el acoso laboral?",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "background": {
+      "bg": "img/cover/fondo-pages-1.jpg"
+    },
+    "instruction": {
+      "type": "label",
+      "text": "Para descubrir cómo prevenirlo, realiza la siguiente actividad presionando cada ícono.",
+      "textLabel": "Clic en el círculo",
+      "posY": 0,
+      "posX": 520,
+      "size": 450
+    },
+    "multimedia": [
+      {
+        "id": 1,
+        "color": "",
+        "title": "",
+        "img": "img/8/flip-1.png",
+        "text": "<p class=''>Conoce el RIT (Reglamento Interno de Trabajo), el código de buen gobierno y las políticas internas de la Organización.</p>"
+      },
+      {
+        "id": 2,
+        "color": "",
+        "title": "",
+        "img": "img/8/flip-2.png",
+        "text": "<p class=''>Mantén una comunicación clara, asertiva y directa con tus compañeros y jefes.</p>"
+      },
+      {
+        "id": 3,
+        "color": "",
+        "title": "",
+        "img": "img/8/flip-3.png",
+        "text": "<p class=''>Establece un seguimiento periódico con tu jefe inmediato sobre el plan de trabajo definido. </p>"
+      },
+      {
+        "id": 4,
+        "color": "",
+        "title": "",
+        "img": "img/8/flip-4.png",
+        "text": "<p class=''>Ante situaciones irregulares que se presenten con otro colaborador, busca un espacio para conversar con él de la situación y llegar a un acuerdo.</p>"
+      },
+      {
+        "id": 5,
+        "color": "",
+        "title": "",
+        "img": "img/8/flip-5.png",
+        "text": "<p class=''>Evita usar apodos o frases descalificativas en tu entorno laboral.</p>"
+      },
+      {
+        "id": 6,
+        "color": "",
+        "title": "",
+        "img": "img/8/flip-6.png",
+        "text": "<p class=''>No alces la voz ni le faltes al respeto a tus compañeros de trabajo.  </p>"
+      }
+    ]
+  },
+
+  "page9": {
+    "type": "Página 9",
+    "jumboText1": "Personas que pueden incurrir en <br>conductas de acoso laboral",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "background": {
+      "bg": "img/cover/fondo-pages-1.jpg"
+    },
+    "instruction": {
+      "type": "label",
+      "text": "<b>Haz clic</b> en cada personaje para conocer la información.",
+      "textLabel": "Clic en el círculo",
+      "posY": 0,
+      "posX": 520,
+      "size": 450
+    },
+    "multimediaCircular": [
+      {
+        "text": "n-1",
+        "img": "img/9/n-1.png",
+        "pos": {
+          "top": 12,
+          "left": 178
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "Los directivos, mandos medios y operativos de cualquier relación laboral.",
+          "img": "",
+          "posGlobe": {
+            "posY": 20,
+            "posX": 314,
+            "size": 340
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": 0
+          },
+          "posTriang": "triang-izq fadeInRight"
+        }
+      },
+      {
+        "text": "n-2",
+        "img": "img/9/n-2.png",
+        "pos": {
+          "top": 149,
+          "left": 414
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "La persona que omita cumplir los requerimientos entregados por el Inspector del Trabajo según lo establecido en la ley 1010 de 2006",
+          "img": "",
+          "posGlobe": {
+            "posY": 162,
+            "posX": -163,
+            "size": 540
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": 505
+          },
+          "posTriang": "triang-der fadeInLeft"
+        }
+      },
+      {
+        "text": "n-3",
+        "img": "img/9/n-3.png",
+        "pos": {
+          "top": 276,
+          "left": 182
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "El empleador que promueva, induzca, favorezca u omita conductas de acoso laboral.",
+          "img": "",
+          "posGlobe": {
+            "posY": 300,
+            "posX": 319,
+            "size": 370
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": 0
+          },
+          "posTriang": "triang-izq fadeInRight"
+        }
+      }
+    ]
+  },
+
+  "page10": {
+    "type": "Página 10",
+    "jumboText1": "Comité de Convivencia Laboral (CCL)",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "background": {
+      "bg": "img/cover/fondo-pages-1.jpg"
+    },
+    "multimedia": {
+      "audio": {
+        "src": "audio/comite-de-convivencia-laboral.mp3",
+        "autoPlay": true
+      },
+      "subtitles": {
+        "3": "La ley dispone la conformación y funcionamiento del Comité de Convivencia",
+        "7": " Laboral para prevenir y corregir situaciones de",
+        "9": "acoso laboral que ocurran en el lugar de trabajo.",
+        "13": "Este comité obrará manteniendo la confidencialidad,",
+        "16": "el ánimo conciliatorio y efectivo en caso de presentarse una queja."
+      },
+      "layers": [
+        [
+          {
+            "label": "",
+            "labelSide": "bottom",
+            "icon": "img/10/n-1.png",
+            "time": 3,
+            "size": 135,
+            "position": {
+              "yPosition": 50,
+              "xPosition": 30
+            }
+          },
+          {
+            "icon": "img/10/l-1.png",
+            "time": 5,
+            "size": 98,
+            "position": {
+              "yPosition": 220,
+              "xPosition": 90
+            }
+          },
+          {
+            "label": "",
+            "labelSide": "bottom",
+            "icon": "img/10/n-2.png",
+            "time": 6,
+            "size": 135,
+            "position": {
+              "yPosition": 175,
+              "xPosition": 176
+            }
+          },
+          {
+            "label": "",
+            "labelSide": "bottom",
+            "icon": "img/10/l-2.png",
+            "time": 7,
+            "size": 85,
+            "position": {
+              "yPosition": 235,
+              "xPosition": 300
+            }
+          },
+          {
+            "icon": "img/10/n-3.png",
+            "time": 8,
+            "size": 135,
+            "position": {
+              "yPosition": 50,
+              "xPosition": 340
+            }
+          },
+          {
+            "icon": "img/10/l-3.png",
+            "time": 9,
+            "size": 70,
+            "position": {
+              "yPosition": 243,
+              "xPosition": 400
+            }
+          },
+          {
+            "label": "",
+            "labelSide": "bottom",
+            "icon": "img/10/n-4.png",
+            "time": 11,
+            "size": 135,
+            "position": {
+              "yPosition": 198,
+              "xPosition": 462
+            }
+          },
+          {
+            "icon": "img/10/l-4.png",
+            "time": 12,
+            "size": 38,
+            "position": {
+              "yPosition": 178,
+              "xPosition": 590
+            }
+          },
+          {
+            "label": "",
+            "labelSide": "bottom",
+            "time": 14,
+            "size": 135,
+            "icon": "img/10/n-5.png",
+            "position": {
+              "yPosition": 0,
+              "xPosition": 565
+            }
+          },
+          {
+            "icon": "img/10/l-5.png",
+            "time": 15,
+            "size": 57,
+            "position": {
+              "yPosition": 176,
+              "xPosition": 640
+            }
+          },
+          {
+            "label": "",
+            "labelSide": "bottom",
+            "icon": "img/10/n-6.png",
+            "time": 16,
+            "size": 135,
+            "position": {
+              "yPosition": 205,
+              "xPosition": 690
+            }
+          },
+          {
+            "label": "",
+            "labelSide": "bottom",
+            "time": 17,
+            "size": 57,
+            "icon": "img/10/l-6.png",
+            "position": {
+              "yPosition": 185,
+              "xPosition": 812
+            }
+          },
+          {
+            "label": "",
+            "labelSide": "bottom",
+            "time": 18,
+            "size": 135,
+            "icon": "img/10/n-7.png",
+            "position": {
+              "yPosition": -15,
+              "xPosition": 772
+            }
+          }
+        ]
+      ]
+    }
+  },
+
+  "page11": {
+    "type": "page",
+    "jumboText1": "Funciones del Comité de Convivencia Laboral (CCL) ",
+    "titleText1": "",
+    "text1": "",
+    "text2": "",
+    "resources": {
+      "img1": ""
+    },
+    "background": {
+      "bg": "img/cover/fondo-pages-2.jpg"
+    },
+    "instruction": {
+      "type": "",
+      "text": "<b>Haz clic</b> en el siguiente video para conocer la información.",
+      "textLabel": "",
+      "posY": 135,
+      "posX": 0,
+      "size": 400
+    },
+    "boxInfo": {
+      "title": "Reproducir video",
+      "text": "",
+      "imgBg": "img/play-1.png"
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/2-funciones-del-comite-de-convivencia-laboral.mp4"
+    }
+  },
+
+  "page12": {
+    "type": "Página 12",
+    "jumboText1": "¿Qué hacer en caso de que se presente acoso laboral? ",
+    "titleText1": "",
+    "text1": "Contacta al Comité de Convivencia Laboral, quienes están a disposición de todos nuestros colaboradores en el momento en que requieran presentar denuncias frente al acoso laboral, para poder así, tomar acciones y desarrollar las medidas preventivas y correctivas necesarias.<br><br>Recuerda que en la intranet encontrarás los integrantes de este Comité y también podrás contactarlos por medio del siguiente correo electrónico: comitedeconvivencia@comercialnutresa.com.co",
+    "text2": "",
+    "resources": {
+      "img1": "img/12/CCL.png"
+    },
+    "background": {
+      "bg": "img/cover/fondo-pages-1.jpg"
+    }
+  },
+
+  "page13": {
+    "type": "endCourse",
+    "endUnit": true,
+    "endCourse": true,
+    "nameUnit": "unit4",
+    "title": "¡Finalizaste con éxito<br>este recorrido!",
+    "subTitle": "Ahora tienes la información necesaria relacionada con el acoso laboral.",
+    "module": "Esperamos que haya sido de tu interés, si tienes dudas, consúltalas con tu jefe inmediato o con el área de Desarrollo Humano Organizacional.<br><br>Recuerda que de cada uno de nosotros depende que nuestro ambiente laboral sea el mejor, comenzando por el respeto y la integridad de quienes nos rodean.",
+    "courseName": "<b>¡Hasta una próxima oportunidad!</b>",
+    "logoCourse": "img/check.png",
+    "msjInfo": "",
+    "background": {
+      "bg": "img/cover/fondo-footer.png"
+    }
+  }
+}

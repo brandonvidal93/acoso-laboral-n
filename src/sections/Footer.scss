@@ -1,0 +1,98 @@
+@import "../resources/colors.scss";
+@import "../resources/animation.scss";
+
+.footer {
+  position: absolute;
+  // background-image: url('../assets/img/backgrounds/bg-footer.png');
+  background-size: contain;
+  width: 100%;
+  height: 50px;
+  max-width: 1074px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+
+  .restrict {
+    position: absolute;
+    z-index: 2;
+    bottom: 15px;
+    right: 476px;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    filter: grayscale(1);
+  }
+
+  .boxLabel {
+    width: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+
+    .labelFooter {
+      &:after {
+        content: '';
+        position: absolute;
+        top: -4px;
+        left: -9px;
+        width: 1px;
+        height: 25px;
+        background-color: $color4;
+      }
+    }
+  }
+
+  .imageFooter {
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    width: 175px;
+    margin: 0 auto;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .buttonPannel {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    bottom: 20px;
+    left: 500px;
+    z-index: 1;
+    // border: 1px solid;
+
+    .buttonNav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      background-color: rgba(255, 255, 255, 0);
+      border: 4px solid $color17;
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      outline: none;
+      transition: all 0.4s;
+
+      .iconButton { pointer-events: none; color: $color17; }
+
+      &:hover {
+        box-shadow: 0 8px 12px -5px rgba(0, 0, 0, 0.6);
+        background-color: $color17;
+
+        .iconButton { color: $color4; }
+      }
+    }
+  }
+}
+
+.footer-desc {
+  display: none;
+}

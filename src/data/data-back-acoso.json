@@ -1,0 +1,1026 @@
+{
+  "coverPage": {
+    "type": "startPage",
+    "units": 7,
+    "title": "Acciones correctivas, preventivas y de mejora",
+    "subTitle": "",
+    "module": "¡Hola!",
+    "courseName": "Te damos la bienvenida a este espacio de aprendizaje. Hemos diseñado este curso para ti con el fin de instruirte sobre la documentación necesaria para las acciones correctivas, preventivas y de mejora. <br> <br> Con tu compromiso podrás comprender cómo se realizan estos procedimientos.",
+    "logoCourse": "img/logo-2.png",
+    "buttonStart": "Iniciar",
+    "modal": {
+      "type": "videoModal",
+      "title": "Recomendaciçon Título",
+      "text": "Texto de recomendación.",
+      "buttonModal": "Guía de Navegación",
+      "closedModal": true,
+      "urlVideo": "video/guia-navegacion-impuestos.mp4"
+    },
+    "background": {
+      "bg": "img/cover/bg-universe-1.png",
+      "stars": "img/cover/stars-1.png",
+      "nebulosa1": "img/cover/nebulosa-1.png",
+      "nebulosa2": "img/cover/nebulosa-2.png",
+      "planet1": "img/cover/planeta-1.png",
+      "planet2": "img/cover/planeta-2.png",
+      "planet3": "img/cover/planeta-3.png",
+      "line1": "img/cover/line-1.png",
+      "book1": "img/cover/book-1.png",
+      "rocket1": "img/cover/rocket-1.png",
+      "astroneer1": "img/cover/astroneer-1.png"
+    },
+    "footer": {
+      "label": "<h5><b>Documentación de acciones</b></h5>",
+      "bgImgs": {
+        "planet1": "img/cover/planeta-1.png",
+        "rocket1": "img/cover/rocket-1.png",
+        "astroneer1": "img/cover/astroneer-1.png",
+        "bgStars": "img/cover/bg-stars.png",
+        "background": [
+          { "url": "img/cover/bgFooter-1.png" },
+          { "url": "img/cover/bgFooter-2.png" },
+          { "url": "img/cover/bgFooter-3.png" },
+          { "url": "img/cover/bgFooter-4.png" }
+        ]
+      }
+    }
+  },
+
+  "page1": {
+    "type": "pageCourse",
+    "nameUnit": "",
+    "title": "Recomendaciones",
+    "text": "Estas son algunas recomendaciones que te servirán para optimizar el aprendizaje:",
+    "instruction": {
+      "type": "",
+      "text": "<b>Haz clic</b> en cada botón",
+      "posY": 550,
+      "posX": 30,
+      "size": 400
+    },
+    "multimediaCircular": [
+      {
+        "text": "",
+        "imgBtn": "img/1/btn-1.png",
+        "pos": {
+          "top": 71,
+          "left": 330
+        },
+        "itemInfo": {
+          "title": "1",
+          "text": "Reserva el espacio en tu agenda, así podrás dedicar el tiempo necesario al aprendizaje.",
+          "img": "",
+          "posGlobe": {
+            "posY": 0,
+            "posX": 80,
+            "size": 350
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down-2 fadeInDown"
+        }
+      },
+      {
+        "text": "",
+        "imgBtn": "img/1/btn-2.png",
+        "pos": {
+          "top": 280,
+          "left": 360
+        },
+        "itemInfo": {
+          "title": "2",
+          "text": "Ten a la mano: lapicero y cuaderno para tomar las notas que consideres necesarias.",
+          "img": "",
+          "posGlobe": {
+            "posY": 0,
+            "posX": 190,
+            "size": 350
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down fadeInDown"
+        }
+      },
+      {
+        "text": "",
+        "imgBtn": "img/1/btn-3.png",
+        "pos": {
+          "top": 240,
+          "left": 650
+        },
+        "itemInfo": {
+          "title": "3",
+          "text": "Utiliza una silla cómoda, luz, ventilación adecuada y despeja el escritorio de todo lo que pueda distraerte.",
+          "img": "",
+          "posGlobe": {
+            "posY": 0,
+            "posX": 290,
+            "size": 350
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down-4 fadeInDown"
+        }
+      }
+    ]
+  },
+
+  "page2": {
+    "type": "pageCourse",
+    "nameUnit": "",
+    "title": "Objetivo y definiciones iniciales",
+    "text": "Al finalizar detalladamente este material, estarás en capacidad de:<br>Identificar la metodología para la ejecución y documentación de acciones que permitan corregir o prevenir eventos, fallas o situaciones no deseables, así como mejorar el desempeño de un proceso o de un sistema.",
+    "instruction": {
+      "type": "",
+      "text": "<b>Haz clic</b> en botón <b>Play</b> para reproducir el material audiovisual",
+      "posY": 550,
+      "posX": 30,
+      "size": 400
+    },
+    "boxInfo": {
+      "title": "CONOCE LAS DEFINICIONES",
+      "text": "A continuación, encontrarás las definiciones básicas para comprender mejor el tema. Presta atención al contenido.",
+      "imgBg": "img/video-1.png"
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/Motion_ACPM.mp4"
+    }
+  },
+
+  "page3": {
+    "type": "menuPage",
+    "title": "¿En qué casos debemos activar una acción?",
+    "text": "Ahora que conoces los diferentes tipos de acciones que se deben gestionar, descubre cuando se deben activar.",
+    "text2": "",
+    "background": {
+      "bici": "img/cover/astroneer-1.png",
+      "size": 43,
+      "position": [
+        {
+          "posY": 12,
+          "posX": 453
+        },
+        {
+          "posY": 12,
+          "posX": 453
+        },
+        {
+          "posY": 12,
+          "posX": 453
+        },
+        {
+          "posY": 12,
+          "posX": 453
+        }
+      ]
+    },
+    "Units": [
+      {
+        "unit": 1,
+        "title": "Acciones <br>correctivas",
+        "text": "Texto Item",
+        "imgBg": "img/units/unit-1.png",
+        "imgBg2": "img/units/imgTitlesub-1.png",
+        "goTo": 4,
+        "fullVisited": false,
+        "position": {
+          "posX": 470,
+          "posY": -166
+        },
+        "bgPos2": {
+          "posX": 540,
+          "posY": -93
+        },
+        "btnPosition": {
+          "posX": 710,
+          "posY": -19
+        }
+      },
+      {
+        "unit": 2,
+        "title": "Acciones<br>preventivas",
+        "text": "Texto Item",
+        "imgBg": "img/units/unit-2.png",
+        "imgBg2": "img/units/imgTitlesub-2.png",
+        "goTo": 7,
+        "fullVisited": false,
+        "position": {
+          "posX": 260,
+          "posY": 38
+        },
+        "bgPos2": {
+          "posX": 426,
+          "posY": 38
+        },
+        "btnPosition": {
+          "posX": 536,
+          "posY": 253
+        }
+      },
+      {
+        "unit": 3,
+        "title": "Acciones de<br>mejora",
+        "text": "Texto Item",
+        "imgBg": "img/units/unit-3.png",
+        "imgBg2": "img/units/imgTitlesub-3.png",
+        "goTo": 8,
+        "fullVisited": false,
+        "position": {
+          "posX": 470,
+          "posY": 193
+        },
+        "bgPos2": {
+          "posX": 459,
+          "posY": 244
+        },
+        "btnPosition": {
+          "posX": -12,
+          "posY": -45
+        }
+      }
+    ],
+    "instruction": {
+      "text": "Da <b>clic</b> en iniciar para que el ciclista avance por los diferentes puntos.",
+      "posY": 585,
+      "posX": 30,
+      "size": 330
+    }
+  },
+
+  "page4": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "nameUnit": "unit1",
+    "title": "Fuentes que activan una acción correctiva",
+    "text": "Las acciones correctivas deben ser activadas despúes de revisar si la situación tiene relación con alguno de los siguientes aspectos:",
+    "instruction": {
+      "type": "",
+      "imgURL": "",
+      "link": "",
+      "text": "<b>Haz clic </b>en los números para ampliar información.",
+      "posY": 550,
+      "posX": 27,
+      "size": 490
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlImg": "img/4/img-1.png"
+    },
+    "boxInfo": {
+      "title": "",
+      "text": "Si desea tener el compendio de la información, descarga la siguiente imagen.",
+      "imgBg": "img/jpg.png"
+    },
+    "multimediaCircular": [
+      {
+        "text": "1",
+        "text2": "Requisitos legales",
+        "pos": {
+          "top": 71,
+          "left": 330
+        },
+        "itemInfo": {
+          "title": "1",
+          "text": "<b>Requisitos legales:</b><br><br><b>- Calidad e inocuidad:</b> incumplimiento legal<br><b>- Ambiental:</b> incumplimiento legal<br><b>- Seguridad y Salud en el Trabajo (SST):</b> No aplica, se realiza basado en el procedimiento para la identificación y evaluación de cumplimiento de requisitos legales en SST",
+          "img": "",
+          "posGlobe": {
+            "posY": 0,
+            "posX": 10,
+            "size": 700
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down-2 fadeInDown"
+        }
+      },
+      {
+        "text": "2",
+        "text2": "Emergencias",
+        "pos": {
+          "top": 280,
+          "left": 360
+        },
+        "itemInfo": {
+          "title": "2",
+          "text": "<b>Emergencias:</b><br><br>Aplica para cualquier tipo de emergencia",
+          "img": "",
+          "posGlobe": {
+            "posY": 15,
+            "posX": 10,
+            "size": 380
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down fadeInDown"
+        }
+      },
+      {
+        "text": "3",
+        "text2": "Auditorías",
+        "pos": {
+          "top": 240,
+          "left": 650
+        },
+        "itemInfo": {
+          "title": "3",
+          "text": "<b>Auditorías:</b><br><br>No conformidades detectadas en auditorías internas y externas. Estas acciones son generadas automáticamente por la plataforma documental Conexión",
+          "img": "",
+          "posGlobe": {
+            "posY": 12,
+            "posX": 86,
+            "size": 490
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down fadeInDown"
+        }
+      },
+      {
+        "text": "4",
+        "text2": "Accidentes",
+        "pos": {
+          "top": 61,
+          "left": 640
+        },
+        "itemInfo": {
+          "title": "4",
+          "text": "<b>Accidentes:</b><br><br><b>- Calidad e inocuidad:</b> no aplica<br><b>- Ambiental:</b> accidente con reporte a la autoridad ambiental o ente externo<br><b>- Seguridad y Salud en el Trabajo (SST):</b> accidente con reporte a la ARL",
+          "img": "",
+          "posGlobe": {
+            "posY": 15,
+            "posX": 165,
+            "size": 600
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down fadeInDown"
+        }
+      },
+      {
+        "text": "5",
+        "text2": "Incidentes",
+        "pos": {
+          "top": 61,
+          "left": 640
+        },
+        "itemInfo": {
+          "title": "5",
+          "text": "<b>Incidentes:</b><br><br><b>- Calidad e inocuidad:</b> desviaciones consecutivas en los puntos de control crítico (PPC). Tres veces en cuatro semanas consecutivas<br><b>- Ambiental:</b> incidentes repetitivos con las mismas características en el mismo con afectación al medio ambiente<br><b>- Seguridad y Salud en el Trabajo (SST):</b> incidentes con alto potencial de pérdidas (potencial con lesión o daños con secuelas, invalidez o la muerte)",
+          "img": "",
+          "posGlobe": {
+            "posY": -43,
+            "posX": 36,
+            "size": 620
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down-4 fadeInDown"
+        }
+      },
+      {
+        "text": "6",
+        "text2": "Quejas y reclamos",
+        "pos": {
+          "top": 61,
+          "left": 640
+        },
+        "itemInfo": {
+          "title": "6",
+          "text": "<b>Quejas y reclamos:</b><br><br><b>- Calidad e inocuidad:</b> queja de inocuidad comprobada<br><b>- Ambiental:</b> queja ambiental comprobada<br><b>- Seguridad y Salud en el Trabajo (SST):</b> queja asociada a SST",
+          "img": "",
+          "posGlobe": {
+            "posY": -22,
+            "posX": 344,
+            "size": 409
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down-4 fadeInDown"
+        }
+      }
+    ]
+  },
+
+  "page5": {
+    "type": "pageCourse",
+    "title": "Ten en cuenta que...",
+    "text": "Si tienes un hallazgo que no se identifica o relaciona con las fuentes anteriormente mencionadas, en el Negocio hemos implementado una herramienta que te permitirá analizar la situación y determinar si requiere o no una acción correctiva.",
+    "instruction": {
+      "type": "",
+      "imgURL": "img/xls.png",
+      "link": "",
+      "text": "<b>Haz clic</b> en botón <b>Play</b> para reproducir el material audiovisual",
+      "posY": 550,
+      "posX": 27,
+      "size": 310
+    },
+    "boxInfo": {
+      "title": "ANALISIS DE IMPACTO",
+      "text": "Te invitamos a ver este video para que conozcas cómo se realiza el análisis de impacto.",
+      "imgBg": "img/video-1.png"
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/Analisis_de_impacto.mp4"
+    }
+  },
+
+  "page6": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "Valida tu aprendizaje con estas dos situaciones",
+    "text": "",
+    "instruction": {
+      "type": "",
+      "imgURL": "img/xls.png",
+      "link": "",
+      "text": "<b>Haz clic</b> en los mundos para conocer la información.",
+      "posY": 550,
+      "posX": 27,
+      "size": 340
+    },
+    "boxInfo": {
+      "title": "Situación 1",
+      "text": "",
+      "imgBg": "img/6/btn-1.png"
+    },
+    "boxInfo2": {
+      "title": "Situación 2",
+      "text": "",
+      "imgBg": "img/6/btn-2.png"
+    },
+    "multimedia": {
+      "book1":[
+        {
+          "page1": "img/6/historia-1/H-1-1.jpg",
+          "page2": "img/6/historia-1/H-1-2.jpg"
+        },
+        {
+          "page1": "img/6/historia-1/H-1-3.jpg",
+          "page2": "img/6/historia-1/H-1-4.jpg"
+        },
+        {
+          "page1": "img/6/historia-1/H-1-5.jpg",
+          "page2": "img/6/historia-1/H-1-6.jpg"
+        },
+        {
+          "title": "Haz clic en este botón para conocer la respuesta correcta.",
+          "text1": "Si elegiste la respuesta b “Realizar la corrección de la situación en planta y genero una tarjeta de anormalidad como evidencia”",
+          "text2": "¡Felicitaciones, tu respuesta fue correcta!"
+        }
+      ],
+      "book2":[
+        {
+          "page1": "img/6/historia-2/H-2-1.jpg",
+          "page2": "img/6/historia-2/H-2-2.jpg"
+        },
+        {
+          "page1": "img/6/historia-2/H-2-3.jpg",
+          "page2": "img/6/historia-2/H-2-4.jpg"
+        },
+        {
+          "page1": "img/6/historia-2/H-2-5.jpg",
+          "page2": "img/6/historia-2/H-2-6.jpg"
+        },
+        {
+          "title": "Haz clic en este botón para conocer la respuesta correcta.",
+          "text1": "Si elegiste la respuesta b “Realizar un nuevo análisis de impacto para tener claro si genera una acción en Conexión”",
+          "text2": "¡Felicitaciones, tu respuesta fue correcta!"
+        }
+      ]
+    }
+  },
+
+  "page7": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "endUnit": true,
+    "title": "Fuentes que activan una acción preventiva",
+    "text": "Sigue con atención la siguiente conversación donde aprenderás cuáles son las fuentes que activan una acción preventiva. Presta atención a lo que estos personajes están interviniendo.",
+    "instruction": {
+      "type": "",
+      "imgURL": "img/xls.png",
+      "link": "",
+      "text": "<b>Desliza</b> con scroll hacia abajo dentro de la tablet para conocer toda la información del chat",
+      "posY": 500,
+      "posX": 27,
+      "size": 230
+    },
+    "multimedia": {
+      "messages": [
+        {
+          "text": "Hola Carlos, ¿cómo te encuentras?",
+          "side": "mT-1 messageLeftIcon-1 separator"
+        },
+        {
+          "text": "Hola Ana, me encuentro<br>muy bien <span class = 'happy'></span>, gracias por preguntar,",
+          "side": "messageRightIcon-1 separator"
+        },
+        {
+          "text": "Te escribo porque tengo una inquietud y yo sé que eres experto en estos temas y me puedes ayudar con la información <span class = 'wink'></span><span class = 'wink'></span>",
+          "side": "messageLeftIcon-1"
+        },
+        {
+          "text": "resulta que ya tengo clara las fuentes que activan las acciones correctivas, pero tengo dudas con las que activan una acción preventiva, ¿me podrías explicar?",
+          "side": "messageLeft separator"
+        },
+        {
+          "text": "Las acciones preventivas son aquellas que debemos activar para evitar que se presenten situaciones no deseables en el proceso, por ejemplo las observaciones de auditorías las consideramos acciones preventivas, estas se generan de manera automática en la plataforma de Conexión, deben ser analizadas con la herramienta que tenemos de Análisis de Impacto ",
+          "side": "messageRightIcon-1"
+        },
+        {
+          "text": "Dependiendo del resultado de ese análisis, debemos definir si continuamos con la gestión de la acción o si por el contrario la cerramos.",
+          "side": "messageRight"
+        },
+        {
+          "text": "También puedes tener situaciones que creas que requieren una acción preventiva, recuerda que antes de crearla en Conexión, debes realizar el análisis y según el resultado, tomas la decisión de gestionar la acción, en ese caso harías todo lo que ya sabes en la plataforma.",
+          "side": "messageRight separator"
+        },
+        {
+          "text": "¡Excelente Carlos! Pero en el caso de no continuar, ¿cómo se procede? <span class = 'thinking'></span>",
+          "side": "messageLeftIcon-1 separator"
+        },
+        {
+          "text": "Ojo… Te recomiendo que guardes el análisis como parte de tu gestión en el proceso. <span class = 'wink'></span><span class = 'wink'></span>",
+          "side": "messageRightIcon-1 separator"
+        },
+        {
+          "text": "¡Excelente Carlos! Me queda muy clara la información y la pondré en práctica en las labores cotidianas que realizo en la Compañía.",
+          "side": "messageLeftIcon-1"
+        },
+        {
+          "text": "Muchas gracias, que tengas un buen día. <span class = 'smiling'></span><span class = 'smiling'></span><span class = 'smiling'></span><span class = 'smiling'></span>",
+          "side": "messageLeft separator"
+        },
+        {
+          "text": "Igual para ti, un favor: comparte con tu equipo este contenido para que estemos todos informados.<br> </span><span class = 'tongue-out'></span><span class = 'tongue-out'></span><span class = 'tongue-out'></span><span class = 'tongue-out'></span>",
+          "side": "messageRightIcon-1"
+        }
+      ]
+    }
+  },
+
+  "page8": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "nameUnit": "unit3",
+    "title": "Fuentes que activan una acción de mejora",
+    "text": "Estas aplican cuando se evidencia lo siguiente:",
+    "instruction": {
+      "type": "",
+      "imgURL": "img/xls.png",
+      "link": "",
+      "text": "<b>Haz clic</b> en cada número para conocer la información.",
+      "posY": 550,
+      "posX": 27,
+      "size": 340
+    },
+    "multimediaCircular": [
+      {
+        "text": "1",
+        "text2": "Requisitos legales",
+        "color": "#B73B6D",
+        "pos": {
+          "top": 65,
+          "left": 110
+        },
+        "itemInfo": {
+          "title": "Primero",
+          "text": "Oportunidades de mejora generadas a partir de las auditorías.",
+          "img": "",
+          "color": "#B73B6D",
+          "posGlobe": {
+            "posY": 110,
+            "posX": 272,
+            "size": 290
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down-2 fadeInDown"
+        }
+      },
+      {
+        "text": "2",
+        "text2": "Emergencias",
+        "color": "#F06A47",
+        "pos": {
+          "top": 15,
+          "left": -75
+        },
+        "itemInfo": {
+          "title": "Segundo",
+          "text": "Oportunidades de mejora por la tendencia positiva en los resultados de los procesos.",
+          "img": "",
+          "color": "#F06A47",
+          "posGlobe": {
+            "posY": 35,
+            "posX": 360,
+            "size": 280
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 4,
+            "posX": 0
+          },
+          "posTriang": "triang-down fadeInDown"
+        }
+      }
+    ]
+  },
+
+  "page9": {
+    "type": "pageCourse",
+    "nameUnit": "unit4",
+    "title": "Responsabilidades",
+    "text": "Para asegurar la implementación del procedimiento es muy importante que acorde a tu rol, conozcas cuál es tu responsabilidad.",
+    "text2": "Para asegurar la implementación del procedimiento es muy importante que conozcas las responsabilidades que tienen los diferentes roles en el proceso. <br><br> Te invitamos a realizar la siguiente actividad visitando este planeta. Debes arrastrar la responsabilidad que se encuentra en el círculo del centro hacia el rol que le corresponde. Cuando finalices da clic en la equis y continúa con el curso.",
+    "boxInfo": {
+      "title": "Situación 1",
+      "text": "",
+      "imgBg": "img/9/btn-1.png"
+    },
+    "multimedia": {
+      "dragBg": {
+        "url": "img/9/bg-DranZone.png",
+        "posY": 200,
+        "posX": 380
+      },
+      "dragItem": [
+        {
+          "id": 1,
+          "text": "Entrenar en las herramientas de análisis utilizadas.",
+          "type": "jefeSistema"
+        },
+        {
+          "id": 2,
+          "text": "Construir el indicador de estado de acciones a nivel de planta y negocio.",
+          "type": "analistaGN"
+        },
+        {
+          "id": 3,
+          "text": "Orientar en la documentación de acciones en la plataforma documental.",
+          "type": "analistaGP"
+        },
+        {
+          "id": 4,
+          "text": "Evaluar los indicadores de proceso, los programas bajo su alcance, informes de auditoría de acuerdo con la frecuencia establecida, así como los eventos que generen impacto en los procesos y realizar análisis de impacto para determinar si se requiere o no generar acción.",
+          "type": "lider"
+        },
+        {
+          "id": 5,
+          "text": "Orientar en la correcta utilización de las herramientas de análisis.",
+          "type": "jefeSistema"
+        },
+        {
+          "id": 6,
+          "text": "Validar que en la aplicación de las herramientas de análisis se llegue a las verdaderas causas raíces de las acciones correctivas críticas, éstas son derivadas de los temas o indicadores que más impactan el Sistema Integral de Gestión. Las acciones críticas son definidas por los responsables de cada Sistema.",
+          "type": "jefeSistema"
+        },
+        {
+          "id": 7,
+          "text": "Socializar el estado de acciones de procesos trasversales.",
+          "type": "analistaGN"
+        },
+        {
+          "id": 8,
+          "text": "Socializar el estado de acciones de la sede.",
+          "type": "analistaGP"
+        }
+      ],
+      "dropZone": [
+        {
+          "drop": 1,
+          "img": "img/9/bgUnit-1.png",
+          "imgTarget": "img/check.png",
+          "bgDrop": {
+            "url": "img/9/bgUnit-1.png",
+            "posY": 8,
+            "posX": 8
+          },
+          "text": "",
+          "posY": 8,
+          "posX": 8,
+          "type": "jefeSistema",
+          "data": "",
+          "infoBox": {
+            "title": 1,
+            "colorTitle": "#4CBAF2",
+            "text": "<p class = 'mB-05'>Velar por el estricto cumplimiento del contrato y acuerdos de servicio.</p>",
+            "width": 420,
+            "posY": 0,
+            "posX": 335,
+            "posTriang": "left"
+          }
+        },
+        {
+          "drop": 2,
+          "img": "img/9/bgUnit-2.png",
+          "imgTarget": "img/check.png",
+          "bgDrop": {
+            "url": "img/9/bgUnit-2.png",
+            "posY": 8,
+            "posX": 487
+          },
+          "text": "",
+          "posY": 8,
+          "posX": 487,
+          "type": "analistaGN",
+          "data": "",
+          "infoBox": {
+            "title": 2,
+            "colorTitle": "#00ABBD",
+            "text": "<p class = 'mB-05'>Velar porque el tercero asigne el personal idóneo, capacitado y entrenado para la prestación del servicio.</p>",
+            "width": 400,
+            "posY": 275,
+            "posX": 64,
+            "posTriang": ""
+          }
+        },
+        {
+          "drop": 3,
+          "img": "img/9/bgUnit-3.png",
+          "imgTarget": "img/check.png",
+          "bgDrop": {
+            "url": "img/9/bgUnit-3.png",
+            "posY": 309,
+            "posX": 8
+          },
+          "text": "",
+          "posY": 309,
+          "posX": 8,
+          "type": "analistaGP",
+          "data": "",
+          "infoBox": {
+            "title": 3,
+            "colorTitle": "#F47521",
+            "text": "<p class = 'mB-05'>Conocer las responsabilidades del Tercero como verdadero empleador y los lineamientos establecidos en el Manual para exigir el cumplimiento.</p>",
+            "width": 500,
+            "posY": -5,
+            "posX": 114,
+            "posTriang": ""
+          }
+        },
+        {
+          "drop": 4,
+          "img": "img/9/bgUnit-4.png",
+          "imgTarget": "img/check.png",
+          "bgDrop": {
+            "url": "img/9/bgUnit-4.png",
+            "posY": 309,
+            "posX": 486
+          },
+          "text": "",
+          "posY": 309,
+          "posX": 486,
+          "type": "lider",
+          "data": "",
+          "infoBox": {
+            "title": 4,
+            "colorTitle": "#B3C636",
+            "text": "<p class = 'mB-05'>Informar a Servicios Nutresa cualquier desviación o inconformidad con el servicio prestado, cuando éste o la relación comercial se puedan ver afectados. </p>",
+            "width": 550,
+            "posY": 265,
+            "posX": 244,
+            "posTriang": ""
+          }
+        }
+      ],
+      "InfoFinal": {
+        "unit": 1,
+        "info": {
+          "title": "¡Excelente!",
+          "text": "<p class='color-4'>Ya conoces las responsabilidades que cada persona debe cumplir de acuerdo a su rol.</p>"
+        }
+      }
+    }
+  },
+
+  "page10": {
+    "type": "pageCourse",
+    "title": "Flujo para gestionar el procedimiento de acciones en Conexión",
+    "text": "Ya conoces todos los conceptos relacionados con el procedimiento de acciones correctivas, preventivas y de mejora e identificas cuál es tu rol frente al mismo. <br><br>Te invitamos a realizar la siguiente actividad, con el objetivo de visualizar integralmente cómo es la documentación en Conexión.",
+    "text2": "Haz clic al asteroide.",
+    "boxInfo": {
+      "title": "Situación 1",
+      "text": "",
+      "imgBg": "img/10/btn-1.png"
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "id": 1,
+          "text": "Dar cierre a la acción.<br>- Responsable del seguimiento.",
+          "color": "#FF9D2A"
+        },
+        {
+          "id": 2,
+          "text": "Documentar la acción en CONEXIÓN.<br>- Responsable: persona que detecta el hallazgo (autor)",
+          "color": "#FF9D2A"
+        },
+        {
+          "id": 3,
+          "text": "Documentar la eficacia del plan de acción.<br>- Responsable del seguimiento.",
+          "color": "#FF9D2A"
+        },
+        {
+          "id": 4,
+          "text": "Documentar la corrección y el análisis de causas.<br>- Responsable de la acción.",
+          "color": "#FF9D2A"
+        },
+        {
+          "id": 5,
+          "text": "Documentar ejecución en cada actividad con su soporte.<br>- Responsable de la actividad.",
+          "color": "#FF9D2A"
+        }
+      ],
+      "dropZone": {
+        "colors": ["#FF9D2A", "#FF9D2A", "#FF9D2A", "#FF9D2A"],
+        "paragraph": [
+          {
+            "key": 1,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Avalúo",
+                "posY": 20,
+                "posX": 20
+              },
+              {
+                "key": 2,
+                "text": "Impuesto predial",
+                "posY": 20,
+                "posX": 235
+              },
+              {
+                "key": 3,
+                "text": "Autoavalúo",
+                "posY": 20,
+                "posX": 448
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 193,
+                "posY": 92,
+                "posX": 186,
+                "type": "Documentar la acción en CONEXIÓN.<br>- Responsable: persona que detecta el hallazgo (autor)"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 148,
+                "posY": 428,
+                "posX": 429,
+                "type": "Documentar la corrección y el análisis de causas.<br>- Responsable de la acción."
+              },
+              {
+                "key": 3,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 161,
+                "posY": 343,
+                "posX": 689,
+                "type": "Dar cierre a la acción.<br>- Responsable del seguimiento."
+              }
+            ]
+          }
+        ]
+      },
+      "InfoFinal": {
+        "unit": 1,
+        "info": {
+          "title": "¡Excelente!",
+          "text": "<p class='color-4'>Ya conoces el flujo de documentación de las acciones.</p>"
+        }
+      }
+    },
+    "instruction": {
+      "type": "",
+      "imgURL": "img/xls.png",
+      "link": "",
+      "text": "<b>Arrastra</b> el contenido en las casillas correspondientes",
+      "posY": 453,
+      "posX": 27,
+      "size": 240
+    }
+  },
+
+  "page11": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "Plataforma documental Conexión",
+    "text": "Es la plataforma documental que permite tener actualizada y disponible la información de los sistemas de gestión, en este caso particular te invitamos a ver el siguiente video, encontrarás de manera detallada cómo es el paso a paso para documentar las acciones correctivas, preventivas y de mejora.",
+    "instruction": {
+      "type": "",
+      "text": "<b>Haz clic</b> en botón <b>Play</b> para reproducir el material audiovisual",
+      "posY": 550,
+      "posX": 30,
+      "size": 400
+    },
+    "boxInfo": {
+      "title": "ANALISIS DE IMPACTO",
+      "text": "Te invitamos a ver este video para que conozcas cómo se realiza el análisis de impacto.",
+      "imgBg": "img/video-1.png"
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/Tutorial-Aplicativo-Conexion-completo_1.mp4"
+    }
+  },
+
+  "page12": {
+    "type": "endCourse",
+    "endUnit": true,
+    "endCourse": true,
+    "type": "endCourse",
+    "nameUnit": "unit4",
+    "title": "¡Has llegado al final de este recorrido! ",
+    "subTitle": "",
+    "module": "",
+    "courseName": "Gracias por ser parte de este proceso de aprendizaje,estamos seguros que tienes nuevos conocimientos y que los pondrás en práctica.<br><br><b>¡Muchas gracias!</b>",
+    "logoCourse": "img/logo-2.png",
+    "buttonStart": "Cierra la ventana para continuar.",
+    "modal": {
+      "type": "videoModal",
+      "title": "Recomendaciçon Título",
+      "text": "Texto de recomendación.",
+      "buttonModal": "Guía de Navegación",
+      "closedModal": true,
+      "urlVideo": "video/Tutorial-Aplicativo-Conexion-completo_1.mp4"
+    },
+    "background": {
+      "bg": "img/cover/bg-universe-1.png",
+      "stars": "img/cover/stars-1.png",
+      "nebulosa1": "img/cover/nebulosa-1.png",
+      "nebulosa2": "img/cover/nebulosa-2.png",
+      "planet1": "img/cover/planeta-1.png",
+      "planet2": "img/cover/planeta-2.png",
+      "planet3": "img/cover/planeta-3.png",
+      "line1": "img/cover/line-1.png",
+      "book1": "img/cover/book-1.png",
+      "rocket1": "img/cover/rocket-1.png",
+      "astroneer1": "img/cover/astroneer-1.png"
+    }
+  },
+
+  "backCover": {
+    "type": "endPage",
+    "title": "¡Has finalizado este módulo!",
+    "text": "Cierra la ventana para continuar.",
+    "img": "img/like.png"
+  },
+
+  "finishUnit": {
+    "title": "Has finalizado este tema",
+    "text": "A continuación haz clic en el ícono del menú para volver al principal y avanzar en un nuevo tema.",
+    "img": "img/check.png"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "coverPage": {
+    "type": "startPage",
+    "units": 7,
+    "title": "Acciones correctivas, preventivas y de mejora",
+    "subTitle": "",
+    "module": "¡Hola!",
+    "courseName": "Te damos la bienvenida a este espacio de aprendizaje. Hemos diseñado este curso para ti con el fin de instruirte sobre la documentación necesaria para las acciones correctivas, preventivas y de mejora. <br> <br> Con tu compromiso podrás comprender cómo se realizan estos procedimientos.",
+    "logoCourse": "img/logo-2.png",
+    "buttonStart": "Iniciar",
+    "modal": {
+      "type": "videoModal",
+      "title": "Recomendaciçon Título",
+      "text": "Texto de recomendación.",
+      "buttonModal": "Guía de Navegación",
+      "closedModal": true,
+      "urlVideo": "video/guia-navegacion-impuestos.mp4"
+    },
+    "background": {
+      "bg": "img/cover/bg-universe-1.png",
+      "stars": "img/cover/stars-1.png",
+      "nebulosa1": "img/cover/nebulosa-1.png",
+      "nebulosa2": "img/cover/nebulosa-2.png",
+      "planet1": "img/cover/planeta-1.png",
+      "planet2": "img/cover/planeta-2.png",
+      "planet3": "img/cover/planeta-3.png",
+      "line1": "img/cover/line-1.png",
+      "book1": "img/cover/book-1.png",
+      "rocket1": "img/cover/rocket-1.png",
+      "astroneer1": "img/cover/astroneer-1.png"
+    },
+    "footer": {
+      "label": "<h5><b>Documentación de acciones</b></h5>"
+    }
+  },
+
+  "page1": {
+    "type": "pageCourse",
+    "nameUnit": "",
+    "title": "Recomendaciones",
+    "text": "Estas son algunas recomendaciones que te servirán para optimizar el aprendizaje:",
+    "instruction": {
+      "type": "",
+      "text": "<b>Haz clic</b> en cada botón",
+      "posY": 575,
+      "posX": 30,
+      "size": 400
+    }
+  },
+
+  "page2": {
+    "type": "pageCourse",
+    "nameUnit": "",
+    "title": "Objetivo y definiciones iniciales",
+    "text": "Al finalizar detalladamente este material, estarás en capacidad de:<br>Identificar la metodología para la ejecución y documentación de acciones que permitan corregir o prevenir eventos, fallas o situaciones no deseables, así como mejorar el desempeño de un proceso o de un sistema.",
+    "instruction": {
+      "type": "",
+      "text": "<b>Haz clic</b> Haz clic en botón <b>Play</b> para reproducir el material audiovisual",
+      "posY": 575,
+      "posX": 30,
+      "size": 400
+    }
+  },
+
+  "page3": {
+    "type": "menuPage",
+    "title": "Contenido",
+    "text": "A lo largo de este recorrido visitarás 6 puntos claves. Deberás aprobar cada uno de ellos para continuar con el siguiente.",
+    "text2": "¡Buena suerte en este recorrido!",
+    "background": {
+      "bici": "img/cover/bici-1.png",
+      "size": 43,
+      "position": [
+        {
+          "posY": -129,
+          "posX": 483
+        },
+        {
+          "posY": -127,
+          "posX": 485
+        },
+        {
+          "posY": -127,
+          "posX": 484
+        },
+        {
+          "posY": -127,
+          "posX": 482
+        },
+        {
+          "posY": -127,
+          "posX": 484
+        },
+        {
+          "posY": -127,
+          "posX": 484
+        },
+        {
+          "posY": -127,
+          "posX": 484
+        }
+      ]
+    },
+    "Units": [
+      {
+        "unit": 1,
+        "title": "Título 1",
+        "text": "Texto Item",
+        "imgBg": "img/units/unit-1.png",
+        "imgBg2": "img/units/imgTitlesub-1.png",
+        "goTo": 2,
+        "fullVisited": false,
+        "position": {
+          "posX": 470,
+          "posY": -166
+        },
+        "bgPos2": {
+          "posX": 540,
+          "posY": -93
+        },
+        "btnPosition": {
+          "posX": 400,
+          "posY": -143
+        }
+      },
+      {
+        "unit": 2,
+        "title": "Título 2",
+        "text": "Texto Item",
+        "imgBg": "img/units/unit-2.png",
+        "imgBg2": "img/units/imgTitlesub-2.png",
+        "goTo": 3,
+        "fullVisited": false,
+        "position": {
+          "posX": 260,
+          "posY": 38
+        },
+        "bgPos2": {
+          "posX": 426,
+          "posY": 38
+        },
+        "btnPosition": {
+          "posX": 200,
+          "posY": 129
+        }
+      },
+      {
+        "unit": 3,
+        "title": "Título 3",
+        "text": "Texto Item",
+        "imgBg": "img/units/unit-3.png",
+        "imgBg2": "img/units/imgTitlesub-3.png",
+        "goTo": 4,
+        "fullVisited": false,
+        "position": {
+          "posX": 470,
+          "posY": 193
+        },
+        "bgPos2": {
+          "posX": 459,
+          "posY": 244
+        },
+        "btnPosition": {
+          "posX": 448,
+          "posY": 385
+        }
+      },
+      {
+        "unit": 4,
+        "title": "Título 4",
+        "text": "Texto Item",
+        "imgBg": "img/units/unit-4.png",
+        "imgBg2": "img/units/imgTitlesub-4.png",
+        "goTo": 11,
+        "fullVisited": false,
+        "position": {
+          "posX": 786,
+          "posY": 164
+        },
+        "bgPos2": {
+          "posX": 793,
+          "posY": 247
+        },
+        "btnPosition": {
+          "posX": 687,
+          "posY": 375
+        }
+      },
+      {
+        "unit": 5,
+        "title": "Título 5",
+        "text": "Texto Item",
+        "imgBg": "img/units/unit-5.png",
+        "imgBg2": "",
+        "goTo": 12,
+        "fullVisited": false,
+        "position": {
+          "posX": 580,
+          "posY": -39
+        },
+        "bgPos2": {
+          "posX": -30,
+          "posY": -199
+        },
+        "btnPosition": {
+          "posX": 750,
+          "posY": 133
+        }
+      },
+      {
+        "unit": 6,
+        "title": "Título 6",
+        "text": "Texto Item",
+        "imgBg": "img/units/unit-6.png",
+        "imgBg2": "",
+        "goTo": 15,
+        "fullVisited": false,
+        "position": {
+          "posX": 885,
+          "posY": 41
+        },
+        "bgPos2": {
+          "posX": 34,
+          "posY": 10
+        },
+        "btnPosition": {
+          "posX": 910,
+          "posY": 143
+        }
+      }
+    ],
+    "instruction": {
+      "text": "Da <b>clic</b> en iniciar para que el ciclista avance por los diferentes puntos.",
+      "posY": 585,
+      "posX": 30,
+      "size": 330
+    }
+  },
+
+  "page4": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "nameUnit": "unit1",
+    "title": "Fuentes que activan una acción correctiva",
+    "text": "Las acciones correctivas deben ser activadas despúes de revisar si la situación tiene relación con alguno de los siguientes aspectos:",
+    "instruction": {
+      "type": "",
+      "imgURL": "",
+      "link": "",
+      "text": "<b>Haz clic </b>en los números para ampliar información.",
+      "posY": 575,
+      "posX": 27,
+      "size": 490
+    }
+  },
+
+  "page5": {
+    "type": "pageCourse",
+    "title": "Ten en cuenta que...",
+    "text": "Si tienes un hallazgo que no se identifica o relaciona con las fuentes anteriormente mencionadas, en el Negocio hemos implementado una herramienta que te permitirá analizar la situación y determinar si requiere o no una acción correctiva.",
+    "instruction": {
+      "type": "",
+      "imgURL": "img/xls.png",
+      "link": "",
+      "text": "<b>Haz clic</b> Haz clic en botón <b>Play</b> para reproducir el material audiovisual",
+      "posY": 575,
+      "posX": 27,
+      "size": 310
+    }
+  },
+
+  "page6": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "Valida tu aprendizaje con estas dos situaciones",
+    "text": "",
+    "instruction": {
+      "type": "",
+      "imgURL": "img/xls.png",
+      "link": "",
+      "text": "<b>Haz clic</b> en los mundos para conocer la información.",
+      "posY": 575,
+      "posX": 27,
+      "size": 340
+    }
+  },
+
+  "page7": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "endUnit": true,
+    "title": "Fuentes que activan una acción preventiva",
+    "text": "Sigue con atención la siguiente conversación donde aprenderás cuáles son las fuentes que activan una acción preventiva. Presta atención a lo que estos personajes están interviniendo.",
+    "instruction": {
+      "type": "",
+      "imgURL": "img/xls.png",
+      "link": "",
+      "text": "<b>Desliza</b> con scroll hacia abajo dentro de la tablet para conocer toda la información del chat",
+      "posY": 575,
+      "posX": 27,
+      "size": 340
+    }
+  },
+
+  "page8": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "nameUnit": "unit3",
+    "title": "Fuentes que activan una acción de mejora",
+    "text": "Estas aplican cuando se evidencia lo siguiente:",
+    "instruction": {
+      "type": "",
+      "imgURL": "img/xls.png",
+      "link": "",
+      "text": "<b>Haz clic</b> en cada número para conocer la información.",
+      "posY": 575,
+      "posX": 27,
+      "size": 340
+    }
+  },
+
+  "page9": {
+    "type": "pageCourse",
+    "nameUnit": "unit4",
+    "title": "Responsabilidades",
+    "text": "Para asegurar la implementación del procedimiento es muy importante que acorde a tu rol, conozcas cuál es tu responsabilidad.",
+    "text2": "Te invitamos a realizar la siguiente actividad visitando este planeta."
+  },
+
+  "page10": {
+    "type": "pageCourse",
+    "title": "Flujo para gestionar el procedimiento de acciones en Conexión",
+    "text": "Ya conoces todos los conceptos relacionados con el procedimiento de acciones correctivas, preventivas y de mejora e identificas cuál es tu rol frente al mismo. <br><br>Te invitamos a realizar la siguiente actividad, con el objetivo de visualizar integralmente cómo es la documentación en Conexión.",
+    "text2": "Haz clic al asteroide."
+  },
+
+  "page11": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "Plataforma documental Conexión",
+    "text": "Es la plataforma documental que permite tener actualizada y disponible la información de los sistemas de gestión, en este caso particular te invitamos a ver el siguiente video, encontrarás de manera detallada cómo es el paso a paso para documentar las acciones correctivas, preventivas y de mejora.",
+    "instruction": {
+      "type": "",
+      "text": "<b>Haz clic</b> Haz clic en botón <b>Play</b> para reproducir el material audiovisual",
+      "posY": 575,
+      "posX": 30,
+      "size": 400
+    }
+  },
+
+  "page12": {
+    "type": "endCourse",
+    "endUnit": true,
+    "endCourse": true,
+    "type": "endCourse",
+    "nameUnit": "unit4",
+    "title": "¡Has llegado al final de este recorrido! ",
+    "subTitle": "",
+    "module": "",
+    "courseName": "Gracias por ser parte de este proceso de aprendizaje,estamos seguros que tienes nuevos conocimientos y que los pondrás en práctica.<br><br><b>¡Muchas gracias!</b>",
+    "logoCourse": "img/logo-2.png",
+    "buttonStart": "Finalizar",
+    "modal": {
+      "type": "videoModal",
+      "title": "Recomendaciçon Título",
+      "text": "Texto de recomendación.",
+      "buttonModal": "Guía de Navegación",
+      "closedModal": true,
+      "urlVideo": "video/guia-navegacion-impuestos.mp4"
+    },
+    "background": {
+      "bg": "img/cover/bg-universe-1.png",
+      "stars": "img/cover/stars-1.png",
+      "nebulosa1": "img/cover/nebulosa-1.png",
+      "nebulosa2": "img/cover/nebulosa-2.png",
+      "planet1": "img/cover/planeta-1.png",
+      "planet2": "img/cover/planeta-2.png",
+      "planet3": "img/cover/planeta-3.png",
+      "line1": "img/cover/line-1.png",
+      "book1": "img/cover/book-1.png",
+      "rocket1": "img/cover/rocket-1.png",
+      "astroneer1": "img/cover/astroneer-1.png"
+    }
+  },
+
+  "backCover": {
+    "type": "endPage",
+    "title": "¡Has finalizado este módulo!",
+    "text": "Cierra la ventana para continuar.",
+    "img": "img/like.png"
+  },
+
+  "finishUnit": {
+    "title": "Has finalizado este tema",
+    "text": "A continuación haz clic en el ícono del menú para volver al principal y avanzar en un nuevo tema.",
+    "img": "img/check.png"
+  }
+}

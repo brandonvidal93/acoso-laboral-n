@@ -1,0 +1,66 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.interactiveAudio {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  .areaItems {}
+
+  .playerBox {
+    bottom: 10px;
+    // position: absolute;
+
+    .buttonBox {
+
+      .buttonPlayer {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 2.5em;
+
+        .iconButton {
+          transition: all .3s;
+          color: #7BAF2D;
+
+          &:hover {
+            color: $color1;
+          }
+        }
+      }
+    }
+
+    .trackLabelBox {
+
+      .labelBox {
+        background-color: $color4;
+        border: 1px solid $color1;
+        border-radius: 10px;
+        width: 680px;
+        .subtitle {
+          color: $color1;
+        }
+      }
+      #timeline {
+        width: 400px;
+        height: 10px;
+        border-radius: 15px;
+        background: #7BAF2D;
+      }
+      #handle{
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        margin-top: 1px;
+        background: #7BAF2D;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover {
+          background: $color1;
+        }
+      }
+    }
+  }
+}

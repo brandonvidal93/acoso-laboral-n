@@ -1,0 +1,96 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.draggableWordBox {
+  .contentSlide {
+    background-image: url('../assets/img/backgrounds/fondo-puzzle.jpg');
+    width: 312px;
+    height: 312px;
+    .slideBox {
+      .line-drop {
+        position: absolute;
+        width: 190px;
+        height: 40px;
+      }
+      .boxDrop {
+        position: absolute;
+        .texBox {
+          color: #E8E8E8;
+          font-size: .8em;
+          text-align: center;
+        }
+        p {
+          font-size: .7em;
+        }
+      }
+      .WordDropped {
+        border: none;
+        p {
+        }
+      }
+    }
+
+    .buttonSlide {
+      background-color: rgba(0, 0, 0, 0);
+
+      .iconButton {
+        font-size: 2em;
+        color: $color1;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: $color2;
+        }
+      }
+    }
+  }
+
+  .infoGloble {
+    position: absolute;
+    background-color: #618DF8;
+    padding: 4em;
+    z-index: 5;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+    top: 205px;
+    left: 265px;
+
+    .titleCircle {
+      background-color: $color2;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+    }
+
+    .buttonClose {
+      position: absolute;
+      top: 3px!important;
+      right: 0px!important;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0);
+      .iconButton {
+        color: red;
+        font-size: 2.3em;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: #cf0000;
+        }
+      }
+    }
+  }
+
+  .contentWords {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    .dragWord {
+      margin: 3px;
+    }
+  }
+}
